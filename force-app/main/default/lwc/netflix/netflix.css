@@ -1,0 +1,47 @@
+/* CSS VARIABLES */
+:host {
+    --primary:rgb(13, 13, 13) !important;
+    --light: #F3F3F3;
+    --dark: #0880a8;
+}
+
+.header {
+  background: rgb(13, 13, 13) !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+
+.h4, h4 {
+  font-size: calc(1.275rem + .3vw);
+  color: var(--light);
+}
+
+a {
+  color: var(--light);
+  /*text-decoration: none;*/
+  margin: 5px;
+}
+
+a:hover {
+  color: var(--dark);
+}
+
+.main-container {
+  padding: 30px;
+  background: rgb(13, 13, 13) !important;
+}
+
+ a img{
+  transition: transform .3s;
+} 
+
+ a img:hover{
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+.theme-maker{
+  background: rgb(13, 13, 13) !important;
+}
